@@ -1,6 +1,6 @@
-const express = require('express');
-const { createClient } = require('redis');
-const { Pool } = require('pg');
+import express from 'express';
+import { createClient } from 'redis';
+import { Pool } from 'pg';
 
 const app = express();
 const port = 3000;
